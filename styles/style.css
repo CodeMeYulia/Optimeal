@@ -1,0 +1,136 @@
+header{
+    background-image: url(../assets/image/bgrnd.jpg);
+    background-color: rgb(183, 223, 144);
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 1200px;
+}
+
+.logo{
+    background-color: white;
+    background-repeat: no-repeat;
+    border-radius:  0px 0px 30px 30px;
+    padding: 30px  25px;
+    margin-left: 20vw;
+}
+nav{
+    margin-left: 37vw;
+    margin-top: -65px;
+}
+.links{
+    text-decoration: none;
+    color: yellow;
+    margin: 20px;
+    padding: 5px 15px
+}
+.links:link{
+    text-decoration: underline;
+}
+.links:hover {
+    border: 2px white solid;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+}
+.menu-mess{
+margin-left: 70vw;
+padding: 0 30px 0 200px;
+margin-top: -35px;
+}
+nav a{
+padding: 5px 15px;
+}  
+.links,h1,h2,.about, button{
+    font-family: 'Ledger', serif, arial;
+}
+#wiki{
+    color: green;
+}
+p::first-letter {
+    color: coral;
+}
+h1.great{
+    margin-left: 20vw;
+    margin-top: 400px;
+    font-size: 25pt;
+    color: white;
+}   
+.about p{
+    width: 18vw;
+    height: 18vh;
+    color: rgb(95, 176, 201);
+    margin-left: 20vw;
+    margin-top: 30px;
+    padding: 0 0 20px 0;
+    line-height: 20pt;
+    font-size: 14pt;
+}
+button{
+    background: linear-gradient(to left, #CD5C5C, #FFDAB9); 
+    color: white; 
+    width: 200px; 
+    height: 60px; 
+    border-radius: 30px; 
+    border: 0; 
+    margin-left: 20vw;
+    margin-top: 10px;
+font-size: 18px;
+} 
+main{
+    background-image: url(../assets/image/backgroup.png);
+    background-color: rgb(238, 228, 215)ige  ;
+    background-size: cover;
+    height: 1100px;
+}
+.pattern{
+padding: 20px 23vw 20px 23vw;
+}
+.second{
+    background-color:rgb(238, 228, 215);
+   }
+.big{
+    color: coral;
+    padding: 15px 30px 15px 30px;
+    font-size: 18pt;
+    text-align: center;
+}
+.foot{
+    background-image: url(../assets/image/footer/Rectangle8.png);
+    background-size: cover;
+    height: 1000px;
+    }
+.greatdown,.plate,.send,.not,.line,.made{
+    margin-left: 20vw;
+}
+h1.greatdown{
+    font-size: 25pt;
+    color: white;
+    padding: 100px 10px 10px 20px;
+}
+.plate{
+    padding: 5px 15px 5px 0px;
+
+}
+.send{
+    margin-top: 20px;
+    padding: 5px 10px 10px 5px;
+}
+.not{
+    padding: 5px 10px 10px 5px;
+}
+.made{
+    padding: 5px 30px 5px 0px;
+}
+.orange{
+    position: absolute;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 50px;
+    margin-left: 5vw;
+}
+.yellow{
+    position: absolute;
+    padding: 5px 5px 5px 5px;
+    margin-bottom: 330px;
+    margin-right: 15vw;
+}
+
