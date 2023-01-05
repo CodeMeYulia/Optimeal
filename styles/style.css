@@ -1,21 +1,53 @@
 header{
+    display: flex;
+    flex: 1 1 auto;
+    width: 100vw;
     background-image: url(../assets/image/bgrnd.jpg);
     background-color: rgb(183, 223, 144);
     background-repeat: no-repeat; 
     background-size: cover; 
-    height: 1200px;
+    height: 100vh;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    align-items: space-between;
+    
 }
+.top{
+    display: flex;
+    flex: 1 1 auto;
+    width: 2500px;
+    height: 120px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+.about{
+    display: flex;
+    flex: 0 0 auto;
+    border-radius: 25px;
+    padding: 25px;
+    width: 600px;
+    height: 400px;
+    margin-left: 20vw;
+    box-sizing: border-box;
+    align-content: space-between;
+    flex-wrap: wrap;
 
+}
 .logo{
     background-color: white;
     background-repeat: no-repeat;
+    width: 200px;
+    height: 60px;
     border-radius:  0px 0px 30px 30px;
     padding: 30px  25px;
-    margin-left: 20vw;
+    
 }
 nav{
-    margin-left: 37vw;
-    margin-top: -65px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 .links{
     text-decoration: none;
@@ -33,9 +65,9 @@ nav{
     text-decoration: none;
 }
 .menu-mess{
-margin-left: 70vw;
-padding: 0 30px 0 200px;
-margin-top: -35px;
+    display: flex;
+padding: 0 30px 0 100px;
+
 }
 nav a{
 padding: 5px 15px;
@@ -48,22 +80,15 @@ padding: 5px 15px;
 }
 p::first-letter {
     color: coral;
+} 
+.great{
+    color: #ffffff;
+    font-size: 38pt;
 }
-h1.great{
-    margin-left: 20vw;
-    margin-top: 400px;
-    font-size: 25pt;
-    color: white;
-}   
-.about p{
-    width: 18vw;
-    height: 18vh;
-    color: rgb(95, 176, 201);
-    margin-left: 20vw;
-    margin-top: 30px;
-    padding: 0 0 20px 0;
+p{
     line-height: 20pt;
     font-size: 14pt;
+    color: rgb(63, 131, 150);
 }
 button{
     background: linear-gradient(to left, #CD5C5C, #FFDAB9); 
@@ -72,11 +97,10 @@ button{
     height: 60px; 
     border-radius: 30px; 
     border: 0; 
-    margin-left: 20vw;
-    margin-top: 10px;
-font-size: 18px;
+    margin-bottom: 10px;
+    font-size: 18px;
 } 
-main{
+/* main{
     background-image: url(../assets/image/backgroup.png);
     background-color: rgb(238, 228, 215)ige  ;
     background-size: cover;
@@ -87,7 +111,7 @@ padding: 20px 23vw 20px 23vw;
 }
 .second{
     background-color:rgb(238, 228, 215);
-   }
+}
 .big{
     color: coral;
     padding: 15px 30px 15px 30px;
@@ -120,8 +144,8 @@ h1.greatdown{
 }
 .made{
     padding: 5px 30px 5px 0px;
-}
-.orange{
+} */
+/* .orange{
     position: absolute;
     padding: 5px 5px 5px 5px;
     margin-bottom: 50px;
