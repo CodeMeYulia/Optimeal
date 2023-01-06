@@ -1,15 +1,14 @@
 header{
     display: flex;
-    flex: 1 1 auto;
-    width: 100vw;
+    flex: 1 0 auto;
     background-image: url(../assets/image/bgrnd.jpg);
-    background-color: rgb(183, 223, 144);
+    background-color: rgb(255, 249, 238);
     background-repeat: no-repeat; 
     background-size: cover; 
     height: 100vh;
     box-sizing: border-box;
     flex-wrap: wrap;
-    align-items: space-between;
+    align-content: space-between;
     
 }
 .top{
@@ -23,15 +22,17 @@ header{
     box-sizing: border-box;
 }
 .about{
+    /* border: 2px dotted red; */
     display: flex;
-    flex: 0 0 auto;
+    flex: 0 1 auto;
+    background-color: ;
     border-radius: 25px;
     padding: 25px;
-    width: 600px;
-    height: 400px;
-    margin-left: 20vw;
+    width: 20vw;
+    height: 40vh;
+    margin: 30px 0 25vh 20vw;
     box-sizing: border-box;
-    align-content: space-between;
+    align-content: center;
     flex-wrap: wrap;
 
 }
@@ -72,7 +73,7 @@ padding: 0 30px 0 100px;
 nav a{
 padding: 5px 15px;
 }  
-.links,h1,h2,.about, button{
+.links,h1,h2,.about, button{/* шрифт */
     font-family: 'Ledger', serif, arial;
 }
 #wiki{
@@ -81,80 +82,132 @@ padding: 5px 15px;
 p::first-letter {
     color: coral;
 } 
-.great{
+.great{/* Витамины */
     color: #ffffff;
-    font-size: 38pt;
+    font-size: 2.8em;
 }
 p{
     line-height: 20pt;
     font-size: 14pt;
     color: rgb(63, 131, 150);
 }
-button{
+button{/* кнопка подробнее */
     background: linear-gradient(to left, #CD5C5C, #FFDAB9); 
     color: white; 
     width: 200px; 
     height: 60px; 
     border-radius: 30px; 
     border: 0; 
-    margin-bottom: 10px;
     font-size: 18px;
 } 
-/* main{
+main{/* средний блок */
+    display: flex;
+    flex: 1 1 auto;
+    width: 100vw;
     background-image: url(../assets/image/backgroup.png);
-    background-color: rgb(238, 228, 215)ige  ;
+    background-color: rgb(255, 249, 239);
     background-size: cover;
-    height: 1100px;
+    height: 100vh;
+    box-sizing: border-box;
+    flex-wrap: nowrap;
+    justify-content: center;
 }
 .pattern{
-padding: 20px 23vw 20px 23vw;
-}
-.second{
-    background-color:rgb(238, 228, 215);
-}
-.big{
-    color: coral;
-    padding: 15px 30px 15px 30px;
-    font-size: 18pt;
-    text-align: center;
-}
-.foot{
-    background-image: url(../assets/image/footer/Rectangle8.png);
-    background-size: cover;
-    height: 1000px;
-    }
-.greatdown,.plate,.send,.not,.line,.made{
-    margin-left: 20vw;
-}
-h1.greatdown{
-    font-size: 25pt;
-    color: white;
-    padding: 100px 10px 10px 20px;
-}
-.plate{
-    padding: 5px 15px 5px 0px;
+    display: flex;
+    flex: 1 1 auto;
+    background-size: 70%;
+    height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-content: center;
 
 }
-.send{
-    margin-top: 20px;
-    padding: 5px 10px 10px 5px;
+
+.foot{/* футер */
+    display: flex;
+    flex: 1 1 auto;
+    width: 100vw;
+    background-image: url(../assets/image/footer/Rectangle8.png);
+    background-color: rgb(51, 157, 228);
+    background-size: cover;
+    height: 1000px;
+    box-sizing: border-box;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: wrap;
+    }
+    .form{/* форма - вставить */
+        border: 5px dotted red;
+        display: flex;
+        flex: 0 1 700px;
+        width: 500px;
+        height: 500px;
+        justify-content: flex-start;
+        align-content: space-around;
+        flex-wrap: wrap;
+        padding: 10px 10px 10px 50px;
+        box-sizing: border-box;
+        margin-top: 10px;
+    }
+    .collaba{/* колобки */
+        border: 5px dotted red;
+        display: flex;
+        flex: 0 1 500px;
+        width: 500px;
+        height: 500px;
+        justify-content: center;
+    }
+    .orange{
+        width: 10vw;
+        height: 9vw;
+        padding-top: 200px;
+        }
+        .yellow{
+            width: 10vw;
+            height: 9vw;
+        }
+        
+    .podval{/* нижний блок текста */
+        /* border: 5px dotted red; */
+        display: flex;
+        flex: 0 1 60vw;
+        width: auto;
+        height: auto;
+        justify-content: center;
+        align-self: flex-end;
+        box-sizing: border-box;
+        flex-wrap: wrap;
+    }
+    .not{/* не является */
+        display: flex;
+        flex: 0 1 auto;
+        width: 1200px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+.greatdown{/* заголовок */
+    font-size: 3em;
+    color: white;
+    
 }
-.not{
-    padding: 5px 10px 10px 5px;
+
+.contacts{/* производитель и контакты */
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: space-around;
+    
 }
 .made{
-    padding: 5px 30px 5px 0px;
-} */
-/* .orange{
-    position: absolute;
-    padding: 5px 5px 5px 5px;
-    margin-bottom: 50px;
-    margin-left: 5vw;
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: flex-start;
+    padding-right: 5vw;
 }
-.yellow{
-    position: absolute;
-    padding: 5px 5px 5px 5px;
-    margin-bottom: 330px;
-    margin-right: 15vw;
+.tel{
+    display: flex;
+    flex: 0 1 auto;
+    justify-content: flex-end;
 }
 
