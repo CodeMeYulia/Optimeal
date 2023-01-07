@@ -1,40 +1,22 @@
 header{
-    display: flex;
-    flex: 1 0 auto;
     background-image: url(../assets/image/bgrnd.jpg);
     background-color: rgb(255, 249, 238);
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    height: 100vh;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    align-content: space-between;
-    
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 }
 .top{
+    /* border: 1px dotted red; */
+    min-height: 100px;
+    width: 75%;
     display: flex;
-    flex: 1 1 auto;
-    width: 2500px;
-    height: 120px;
-    justify-content: space-around;
     align-items: center;
-    flex-wrap: nowrap;
-    box-sizing: border-box;
-}
-.about{
-    /* border: 2px dotted red; */
-    display: flex;
-    flex: 0 1 auto;
-    background-color: ;
-    border-radius: 25px;
-    padding: 25px;
-    width: 20vw;
-    height: 40vh;
-    margin: 30px 0 25vh 20vw;
-    box-sizing: border-box;
-    align-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
-
 }
 .logo{
     background-color: white;
@@ -67,14 +49,23 @@ nav{
 }
 .menu-mess{
     display: flex;
-padding: 0 30px 0 100px;
+padding: 0 50px 0 30px;
 
 }
 nav a{
 padding: 5px 15px;
 }  
-.links,h1,h2,.about, button{/* шрифт */
+.links,h1,h2,.about, button{
     font-family: 'Ledger', serif, arial;
+} 
+.about{
+    /* border: 1px dotted blue; */
+    min-height: 400px;
+    width: 500px;
+    display: flex;
+    align-self: flex-start;
+    margin: 30vh 0 23vh 23vw;
+    flex-wrap: wrap;
 }
 #wiki{
     color: green;
@@ -82,7 +73,7 @@ padding: 5px 15px;
 p::first-letter {
     color: coral;
 } 
-.great{/* Витамины */
+.great{
     color: #ffffff;
     font-size: 2.8em;
 }
@@ -91,72 +82,49 @@ p{
     font-size: 14pt;
     color: rgb(63, 131, 150);
 }
-button{/* кнопка подробнее */
+button{
     background: linear-gradient(to left, #CD5C5C, #FFDAB9); 
     color: white; 
     width: 200px; 
     height: 60px; 
-    border-radius: 30px; 
+    border-radius: 25px; 
     border: 0; 
-    font-size: 18px;
+    font-size: 16pt;
 } 
-main{/* средний блок */
-    display: flex;
-    flex: 1 1 auto;
-    width: 100vw;
-    background-image: url(../assets/image/backgroup.png);
+main{
+    /* background-image: url(../assets/image/backgroup.png); */
     background-color: rgb(255, 249, 239);
     background-size: cover;
-    height: 100vh;
-    box-sizing: border-box;
-    flex-wrap: nowrap;
-    justify-content: center;
-}
-.pattern{
     display: flex;
-    flex: 1 1 auto;
-    background-size: 70%;
-    height: 100vh;
-    padding: 30px;
-    box-sizing: border-box;
-    justify-content: center;
-    align-content: center;
-
-}
-
-.foot{/* футер */
-    display: flex;
-    flex: 1 1 auto;
     width: 100vw;
-    background-image: url(../assets/image/footer/Rectangle8.png);
+    height: 1400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot{
     background-color: rgb(51, 157, 228);
-    background-size: cover;
-    height: 1000px;
-    box-sizing: border-box;
-    justify-content: space-around;
-    align-content: space-around;
+    display: flex;
+    width: 100%;
+    min-height: 800px;
     flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-around;
     }
-    .form{/* форма - вставить */
-        border: 5px dotted red;
-        display: flex;
-        flex: 0 1 700px;
-        width: 500px;
-        height: 500px;
-        justify-content: flex-start;
-        align-content: space-around;
-        flex-wrap: wrap;
-        padding: 10px 10px 10px 50px;
+    .form{
+        /* border: 5px dotted red; */
+        width: 35%;
+        min-height: 300px;
         box-sizing: border-box;
-        margin-top: 10px;
+        padding: 30px 0px 30px 250px;
     }
-    .collaba{/* колобки */
-        border: 5px dotted red;
+    .collaba{
+        /* border: 5px dotted red; */
+        width: 35%;
+        min-height: 300px;
         display: flex;
-        flex: 0 1 500px;
-        width: 500px;
-        height: 500px;
-        justify-content: center;
+
+        
     }
     .orange{
         width: 10vw;
@@ -168,46 +136,36 @@ main{/* средний блок */
             height: 9vw;
         }
         
-    .podval{/* нижний блок текста */
+    .podval{
         /* border: 5px dotted red; */
+        width: 70%;
+        min-height: 200px;
         display: flex;
-        flex: 0 1 60vw;
-        width: auto;
-        height: auto;
-        justify-content: center;
-        align-self: flex-end;
-        box-sizing: border-box;
+        flex-direction: column;
         flex-wrap: wrap;
+        align-content: center
+        
     }
-    .not{/* не является */
+    .not{
         display: flex;
-        flex: 0 1 auto;
         width: 1200px;
         justify-content: center;
         flex-wrap: wrap;
-    }
+    } 
 
-.greatdown{/* заголовок */
-    font-size: 3em;
+.greatdown{
+    font-size: 28pt;
     color: white;
     
 }
 
-.contacts{/* производитель и контакты */
+.contacts{
     display: flex;
-    flex: 0 1 auto;
-    justify-content: space-around;
-    
+    width: 1200px;
+    justify-content: space-between;
+    flex-wrap: nowrap; 
 }
-.made{
-    display: flex;
-    flex: 0 1 auto;
-    justify-content: flex-start;
-    padding-right: 5vw;
-}
-.tel{
-    display: flex;
-    flex: 0 1 auto;
-    justify-content: flex-end;
+button{
+    margin: 20px 0 0 0;
 }
 
